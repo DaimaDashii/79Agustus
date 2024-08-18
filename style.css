@@ -1,0 +1,106 @@
+h1 {
+ font-size: 25px;
+ text-align: center;
+ color: white;
+ font-family: "Bebas Neue", sans-serif;
+}
+
+h3 {
+  font-size: 17px;
+ text-align: center;
+ color: white;
+ font-family: "Bebas Neue", sans-serif;
+ margin-bottom: -1px;
+}
+
+p {
+  font-size: 9px;
+ text-align: center justify;
+ color: #FFB6C1;
+ font-family: "Bebas Neue", sans-serif;
+ 
+}
+
+.pesan {
+  font-size: 10px;
+ text-align: center justify;
+ color: #FFB6C1;
+ font-family: "Bebas Neue", sans-serif;
+}
+
+body {
+  background-color:#BA1118;
+}
+
+.merdeka{
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ z-index: -2;
+ filter: grayscale(0%);
+}
+
+html {
+    webkit-text-size-adjust: 100%;
+}
+
+.garuda {
+  filter: opacity(35%);
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.sub {
+  font-size: 25px;
+ text-align: center;
+ color: white;
+ font-family: "Bebas Neue", sans-serif;
+ margin-top: -20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*.slideshow-container {
+    max-width: 1000px;
+   position: absolute;
+   align-items: center;
+   justify-content: center;
+}*/
+
+.slide {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+    width: 100px;
+    filter: grayscale(100%);
+    align-items: center;
+   justify-content: center;
+   margin:auto;
+   display:flex;
+   height: auto;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.6s;
+}
+
+@keyframes{
+    from {opacity: 1} 
+    to {opacity: 0.4}
+}
